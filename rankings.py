@@ -187,63 +187,7 @@ def write_to_csv(elosList):
 
 add_tournament("SeasonOpener_InPerson", 4)
 add_tournament("SeasonOpener_Online", 4)
-add_tournament("Grapevine", 4)
-add_tournament("JackHowe", 4)
-add_tournament("Milpitas", 2)
-add_tournament("Valley", 2)
-# add_tournament("HolyCross", 1) # Cancelled
-add_tournament("Yale", 8)
-# add_tournament("StJames", 1) # Cannot find on tab
-add_tournament("Georgetown", 1)
-add_tournament("NovaTitan", 1)
-add_tournament("NanoNagle", 4)
-add_tournament("NYC",8)
-add_tournament("BlueKey", 8)
-# add_tournament("Bellaire", 1) # results not availabile on Tab
-add_tournament("AppleValley", 8)
-add_tournament("KatyTaylor", 1)
-add_tournament("Hockaday", 1)
-# # add_tournament("Scarsdale", 2) # results not available on Tab
-add_tournament("Roosevelt", 1)
-add_tournament("JohnLewis", 4)
-add_tournament("Villiger", 2)
-add_tournament("Glenbrooks", 8)
-add_tournament("Alta", 4)
-add_tournament("Princeton", 8)
-add_tournament("Longhorn", 2) # TODO
-add_tournament("TOCDigital1", 2)
-add_tournament("Churchill", 1)
-add_tournament("LaCosta", 4)
-add_tournament("MillardWest", 1)
-add_tournament("Dowling", 4)
-add_tournament("IsidoreNewman", 2)
-add_tournament("Blake", 8)
-add_tournament("Arizona", 8)
-add_tournament("PugetSound", 1)
-# add_tournament("MyersPark", 1) # Not on Tab? 
-add_tournament("Sunvite", 8)
-add_tournament("Durham", 4)
-add_tournament("MtVernon", 1)
-add_tournament("JamesLogan", 4)
-add_tournament("Lexington", 4)
-add_tournament("Peninsula", 1)
-add_tournament("BarkleyForum", 8)
-add_tournament("Columbia", 4)
-# add_tournament("Ridge", 2) # Not on Tab?
-add_tournament("LewisClark", 1)
-add_tournament("Pennsbury", 2)
-# add_tournament("Puyallup", 1) # Not on Tab?
-add_tournament("UNLV", 4)
-add_tournament("UPenn", 8)
-add_tournament("Stanford", 8)
-add_tournament("Berkeley", 8)
-add_tournament("MilliardNorth", 4) # Happening 2/23
-add_tournament("Bingham", 4)
-add_tournament("Harvard", 8)
-add_tournament("Lakeland", 1)
-add_tournament("TOCDigital2", 2)
-add_tournament("TOCDigital3", 4)
-add_tournament("TOC", 16)
+
 
 elos = sorted(elos_dict.items(), key=lambda item: item[1], reverse=True)
 write_to_csv(elos)
